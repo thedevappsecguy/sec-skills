@@ -1,0 +1,43 @@
+{
+  "name": "sec-skills-marketplace",
+  "metadata": {
+    "description": "Security-focused Claude marketplace for malicious AI skill scanning."
+  },
+  "owner": {
+    "name": "thedevappsecguy"
+  },
+  "plugins": [
+    {
+      "name": "sec-skills",
+      "source": "./",
+      "description": "Security-focused skills for malicious AI skill scanning.",
+      "version": "1.0.0",
+      "repository": "https://github.com/thedevappsecguy/sec-skills",
+      "author": {
+        "name": "thedevappsecguy"
+      },
+      "keywords": [
+        "cli",
+        "security",
+        "security-audit",
+        "skills",
+        "python3",
+        "gemini",
+        "cursor",
+        "security-scanner",
+        "codex",
+        "security-automation",
+        "sarif",
+        "security-tools",
+        "ai-agents",
+        "claude",
+        "windsurf",
+        "ai-security",
+        "agent-security",
+        "ai-skills",
+        "claude-skills"
+      ],
+      "category": "security"
+    }
+  ]
+}

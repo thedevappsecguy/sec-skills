@@ -1,0 +1,33 @@
+{
+  "name": "sec-skills",
+  "version": "1.0.0",
+  "description": "Security-focused skills for malicious AI skill scanning.",
+  "author": {
+    "name": "Vamsi Krishna Bonam",
+    "url": "https://github.com/thedevappsecguy"
+  },
+  "keywords": [
+    "cli",
+    "security",
+    "security-audit",
+    "skills",
+    "python3",
+    "gemini",
+    "cursor",
+    "security-scanner",
+    "codex",
+    "security-automation",
+    "sarif",
+    "security-tools",
+    "ai-agents",
+    "claude",
+    "windsurf",
+    "ai-security",
+    "agent-security",
+    "ai-skills",
+    "claude-skills"
+  ],
+  "skills": [
+    "./skills/skill-scanner-scans"
+  ]
+}
