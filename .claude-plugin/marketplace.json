@@ -1,7 +1,7 @@
 {
   "name": "sec-skills-marketplace",
   "metadata": {
-    "description": "Security-focused Claude marketplace for malicious AI skill scanning."
+    "description": "Security-focused Claude marketplace for AI agent hardening, scanning, and git safety guardrails."
   },
   "owner": {
     "name": "thedevappsecguy"
@@ -10,7 +10,7 @@
     {
       "name": "sec-skills",
       "source": "./",
-      "description": "Security-focused skills for malicious AI skill scanning.",
+      "description": "Security-focused skills for AI agent hardening, scanning, and git safety guardrails.",
       "version": "1.0.0",
       "repository": "https://github.com/thedevappsecguy/sec-skills",
       "author": {
@@ -35,7 +35,10 @@
         "ai-security",
         "agent-security",
         "ai-skills",
-        "claude-skills"
+        "claude-skills",
+        "git",
+        "git-hooks",
+        "git-safety"
       ],
       "category": "security"
     }

@@ -1,7 +1,7 @@
 {
   "name": "sec-skills",
   "version": "1.0.0",
-  "description": "Security-focused skills for malicious AI skill scanning.",
+  "description": "Security-focused skills for AI coding agents, including skill scanning and git safety guardrails.",
   "author": {
     "name": "Vamsi Krishna Bonam",
     "url": "https://github.com/thedevappsecguy"
@@ -28,6 +28,7 @@
     "claude-skills"
   ],
   "skills": [
-    "./skills/skill-scanner-scans"
+    "./skills/skill-scanner-scans",
+    "./skills/git-guard"
   ]
 }
