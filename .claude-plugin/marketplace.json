@@ -1,7 +1,7 @@
 {
   "name": "sec-skills-marketplace",
   "metadata": {
-    "description": "Security-focused Claude marketplace for AI agent hardening, scanning, and git safety guardrails."
+    "description": "Claude marketplace for AI agent scanning, git safety guardrails, and design stress-testing."
   },
   "owner": {
     "name": "thedevappsecguy"
@@ -10,7 +10,7 @@
     {
       "name": "sec-skills",
       "source": "./",
-      "description": "Security-focused skills for AI agent hardening, scanning, and git safety guardrails.",
+      "description": "Skills for AI agent scanning, git safety guardrails, and design stress-testing.",
       "version": "1.0.0",
       "repository": "https://github.com/thedevappsecguy/sec-skills",
       "author": {
@@ -38,7 +38,10 @@
         "claude-skills",
         "git",
         "git-hooks",
-        "git-safety"
+        "git-safety",
+        "design-review",
+        "devils-advocate",
+        "planning"
       ],
       "category": "security"
     }
