@@ -4,7 +4,7 @@ This repo stores security-focused skills for AI coding agents such as Claude, Cu
 
 It is structured as a single Claude plugin marketplace repo and a conventional `skills/` repo so it can be used with both Claude Code plugins and the `skills` CLI.
 
-## Included skill
+## Included skills
 
 ### skill-scanner-scans
 
@@ -15,6 +15,15 @@ Use this skill to:
 - scan those artifacts for malicious patterns and suspicious behavior
 
 Start with [`skills/skill-scanner-scans/SKILL.md`](skills/skill-scanner-scans/SKILL.md).
+
+### git-guard
+
+Use this skill to:
+- install a Claude Code `PreToolUse` hook that blocks dangerous git commands
+- prevent accidental `git push`, `git reset --hard`, `git clean`, and similar destructive operations
+- customize the blocked pattern list for project or global scope
+
+Start with [`skills/git-guard/SKILL.md`](skills/git-guard/SKILL.md).
 
 ## Claude marketplace
 
@@ -50,6 +59,10 @@ Install a specific skill:
 npx skills add thedevappsecguy/sec-skills --skill skill-scanner-scans
 ```
 
+```bash
+npx skills add thedevappsecguy/sec-skills --skill git-guard
+```
+
 For private validation, use the local repo path instead:
 
 ```bash
@@ -66,4 +79,5 @@ Public GitHub visibility is required for unauthenticated public installs. While 
   plugin.json
 skills/
   skill-scanner-scans/
+  git-guard/
 ```
