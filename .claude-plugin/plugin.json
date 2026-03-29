@@ -1,7 +1,7 @@
 {
   "name": "sec-skills",
   "version": "1.0.0",
-  "description": "Security-focused skills for AI coding agents, including skill scanning and git safety guardrails.",
+  "description": "Skills for AI coding agents, including security scanning, git safety guardrails, and design stress-testing.",
   "author": {
     "name": "Vamsi Krishna Bonam",
     "url": "https://github.com/thedevappsecguy"
@@ -25,10 +25,14 @@
     "ai-security",
     "agent-security",
     "ai-skills",
-    "claude-skills"
+    "claude-skills",
+    "design-review",
+    "devils-advocate",
+    "planning"
   ],
   "skills": [
     "./skills/skill-scanner-scans",
-    "./skills/git-guard"
+    "./skills/git-guard",
+    "./skills/devil-advocate"
   ]
 }

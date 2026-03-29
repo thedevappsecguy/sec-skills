@@ -1,6 +1,6 @@
 # sec-skills
 
-This repo stores security-focused skills for AI coding agents such as Claude, Cursor, and Codex.
+This repo stores skills for AI coding agents such as Claude, Cursor, and Codex.
 
 It is structured as a single Claude plugin marketplace repo and a conventional `skills/` repo so it can be used with both Claude Code plugins and the `skills` CLI.
 
@@ -24,6 +24,15 @@ Use this skill to:
 - customize the blocked pattern list for project or global scope
 
 Start with [`skills/git-guard/SKILL.md`](skills/git-guard/SKILL.md).
+
+### devil-advocate
+
+Use this skill to:
+- stress-test a plan or design by walking every major branch of the decision tree
+- challenge assumptions one question at a time
+- recommend answers while drilling into unresolved dependencies and tradeoffs
+
+Start with [`skills/devil-advocate/SKILL.md`](skills/devil-advocate/SKILL.md).
 
 ## Claude marketplace
 
@@ -63,6 +72,10 @@ npx skills add thedevappsecguy/sec-skills --skill skill-scanner-scans
 npx skills add thedevappsecguy/sec-skills --skill git-guard
 ```
 
+```bash
+npx skills add thedevappsecguy/sec-skills --skill devil-advocate
+```
+
 For private validation, use the local repo path instead:
 
 ```bash
@@ -80,4 +93,5 @@ Public GitHub visibility is required for unauthenticated public installs. While 
 skills/
   skill-scanner-scans/
   git-guard/
+  devil-advocate/
 ```
